@@ -42,10 +42,10 @@ function outline(string) {
     aboutSection.style.display = 'none';
     outlineSection.style.display = 'block';
     if (string == 'center') {
-        outlineButton.style.color = 'rgb(192, 0, 0)';
+        outlineButton.style.color = 'red';
     }
-    else {        
-        outlineButton.style.color = 'rgb(255, 128, 128)';
+    else {
+        outlineButton.style.color = 'white';
     }
     HideOutlines();
     let selected = document.getElementById(string);
